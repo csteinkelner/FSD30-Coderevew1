@@ -28,7 +28,7 @@ h4
 	background-color: gray;
 	height: 50px;
 	position: absolute;
-	width: 100%;
+	width: 1150px;
 }
 #Nav
 {
@@ -59,13 +59,13 @@ h4
 
  #pics img
  {
-	height: 400px;
+	height: 360px;
+	width: 545px;
  }
  
 .bilder
 {
-	margin: 10px;
-	width: 40%;
+	
 	display: inline-block;
 }
 .bilderreihe
@@ -76,11 +76,17 @@ h4
 }
 #bild2
 {
-	float: right;
+	position: absolute;
+	margin-left: 103px;
+	left: 700px;
 }
 #bild4
 {
-	float: right;
+	position: absolute;
+	left: 700px;
+	height: 420px;
+	width: 600px;
+	margin-left: 103px;
 }
 
 .bilder h3
@@ -93,5 +99,17 @@ h4
 	height: 50px;
 	background-color: #f44541;
 	text-align: center;
-	padding: 10px;
+	padding-top: 20px;
+}
+ 
+#wraper
+{
+	width:1150px;
+	margin-right: 200px;
+	margin-left: 200px;
+}
+#outer
+{
+	width: 100%
+
 }
